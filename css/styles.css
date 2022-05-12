@@ -139,9 +139,18 @@ margin-left: 50px;
 
 /* Order service */
 .order-service {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 200px;
     padding-top: 200px;
-    background-color: #2F303A;
+
+    background-color: #C4C4C4;
+    background-image: url(../images/order-service/Img.jpg), linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     text-align: center;
 }
 .order-service .title {
@@ -294,6 +303,26 @@ margin-left: 50px;
 .section-team .team-card {
     background: #FFFFFF;
     /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Clients */
+
+.clients {
+    
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+.title-clients {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
 }
 
 /* Address */
@@ -302,6 +331,12 @@ margin-left: 50px;
     padding-bottom: 60px;
     background: #2F303A;
 }
+
+.footer {
+    display: flex;
+    align-items: baseline;
+}
+
 .logo-footer {
     margin-bottom: 20px;
 }
@@ -364,15 +399,32 @@ margin-left: 50px;
 .footer-list .link:focus {
     color: var(--accent-color);
 }
+
+.text-social {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+.logo-address {
+    margin-right: 70px;
+}
+
+.social {
+
+}
 /* Portfolio */
 
 .portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.filter {
 
-}
+
 .filter-list {
     display: flex;
     margin-bottom: 50px;
@@ -398,6 +450,9 @@ margin-left: 50px;
     text-align: center;
     letter-spacing: 0.03em;
 }
+.btn:hover{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 .btn-all {
     padding: 6px 22px;
@@ -420,6 +475,7 @@ margin-left: 50px;
 cursor: pointer;
 color: var(--primary-bg-color);
 background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
 }
 
@@ -446,10 +502,12 @@ background: #2196F3;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
-    
+
 }
 
-
+.container-project:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .container-project .title {
     margin-bottom: 4px;
