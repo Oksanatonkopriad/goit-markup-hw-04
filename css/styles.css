@@ -207,6 +207,32 @@ margin-left: 50px;
 .card-feature {
     width: 270px;
 }
+
+.card-feature::before {
+    display: block;
+    content: "";
+    height: 120px;
+    margin-bottom: 30px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.icon-antenna::before {
+background-image: url(../images/icons.svg/antenna.svg);
+}
+.icon-clock::before {
+background-image: url(../images/icons.svg/clock.svg);
+}
+.icon-diagram::before {
+background-image: url(../images/icons.svg/diagram.svg);
+}
+.icon-astronaut::before {
+background-image: url(../images/icons.svg/astronaut.svg);
+}
+
 .feature-list li +li {
     margin-left: 30px;
 }
@@ -505,7 +531,8 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 
 }
 
-.container-project:hover {
+.container-project:hover,
+.container-project:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
